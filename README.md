@@ -1,0 +1,3 @@
+# bootstrap-page
+
+[page1]()
