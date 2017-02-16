@@ -1,0 +1,88 @@
+/**
+ * 顶部
+*/
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  color: #999;
+  position: fixed;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 20px;
+  float: left;
+  margin: 14px 0;
+  margin-right: 20px;
+}
+
+header>div>ul>li>a {
+  color: #999 !important;
+}
+
+header>div>ul>li>a:hover,
+header>div>ul>li>a:active,
+header>div>ul>li>a:visited {
+  color: #fff;
+  background-color: #000 !important;
+}
+
+header form {
+  float: right;
+  margin: 8px 0;
+}
+
+/**
+ * 左边栏
+*/
+
+.sidebar {
+  background-color: #ddd;
+  padding: 0;
+  position: fixed;
+  top: 51px;
+  overflow-y: auto;
+  height: 960px;
+}
+
+.nav-sidebar {
+  margin-top: 20px;
+}
+
+.nav-sidebar>li {
+  text-indent: 20px;
+}
+
+.nav-sidebar>li.active>a {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+/**
+ * 右边主要内容
+*/
+
+section.content {
+  margin-left: 220px;
+  padding-left: 15px;
+  margin-top: 51px;
+  width: calc(100% - 239px);
+  box-sizing: border-box;
+}
+
+.content h1 {
+  border-bottom: 1px solid #eee;
+  margin: 3px 0 20px 0;
+  padding-bottom: 10px;
+}
+
+.content .controls button {
+  width: 80px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+
